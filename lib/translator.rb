@@ -28,7 +28,6 @@ def get_english_meaning(file, emoticon)
     library_hash["get_meaning"][emoticon]
   else
     "Sorry, that emoticon was not found"
-  end
 end
   # code goes here
 end
