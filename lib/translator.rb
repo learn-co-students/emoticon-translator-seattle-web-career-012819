@@ -10,8 +10,7 @@ def load_library(file)
   library_hash['get_meaning'][japanese] = meaning 
   library_hash['get_emoticon'][english] = japanese
   end
-library_hash
-  
+  library_hash
 end
 
 def get_japanese_emoticon
