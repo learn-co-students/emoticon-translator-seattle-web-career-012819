@@ -15,11 +15,10 @@ end
 
 def get_japanese_emoticon(file, emoticon)
   library_hash = load_library(file)
-  japanese_emoticon = library_hash['get_emoticon'][emoticon]
-  if japanese_emoticon.include?(emoticon) == FALSE
-    puts "Sorry, that emoticon was not found
-  end
-  # code goes here
+  if library_hash["get_emoticon"].include?(emoticon)
+    library_hash["get_emoticon"][emoticon]
+  else
+    puts "Sorry, that emoticon was not found"
 end
 
 def get_english_meaning
