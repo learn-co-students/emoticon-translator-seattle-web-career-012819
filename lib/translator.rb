@@ -24,7 +24,7 @@ end
 
 def get_english_meaning(file, emoticon)
   library_hash = load_library(file)
-  if library_hash["get_emoticon"].include?(emoticon)
+  if library_hash["get_meaning"].include?(emoticon)
     library_hash["get_meaning"][emoticon]
   else
     "Sorry, that emoticon was not found"
