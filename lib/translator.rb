@@ -13,7 +13,8 @@ def load_library(file)
   library_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(file, emoticon)
+  file = load_library(file)
   # code goes here
 end
 
