@@ -1,4 +1,5 @@
-require "yaml"
+require 'yaml'
+require 'pry'
 
 def load_library("lib/emoticons.yml")
   puts load_library.inspect
